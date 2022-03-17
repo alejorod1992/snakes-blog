@@ -135,6 +135,13 @@ img {
 }
 
 /*Nav and Header*/
+.arrow-icon {
+    background-image: url();
+}
+
+.the_blog__title {
+    display: flex;
+}
 
 
 @media (min-width: 768px) {
@@ -181,11 +188,13 @@ img {
 
 .button--primary {
     background-color: var(--black);
+    color: var(--white);
 }
 
 .button--secondary {
     background-color: var(--primary);
     color: var(--white);
+
 }
 
 .favorites {
